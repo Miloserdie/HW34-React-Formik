@@ -1,0 +1,98 @@
+.task-discription {
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 20px 10px 0;
+
+	&__link-back{
+		display: inline-block;
+		margin-bottom: 5px;
+		border-radius: 30px 0 0 30px;
+		padding-left: 15px;
+		&:hover{
+			background: rgb(107, 63, 211);
+			transition: 0.2s linear
+		}
+	}
+
+	&__form{
+		display: flex;
+	}
+
+	&__inputs {
+		flex: 1 1 auto;
+	}
+
+	&__top {
+		display: flex;
+		justify-content: space-between;
+		margin-bottom: 20px;
+		border: 1px solid;
+		padding: 10px;
+	}
+
+	&__task-info{
+		display: flex;
+		align-items: center;
+		border-bottom: 1px solid;
+		padding: 5px;
+	}
+
+	&__task {
+		background: none;
+		outline: none;
+		border: none;
+		font-size: 15px;
+		margin-left: 5px;
+		color: white;
+	}
+
+	&__text {
+		border-radius: 5px;
+		width: 100%;
+		background: none;
+		outline: none;
+		border-width: 2px;
+		border-style: solid;
+		padding: 10px;
+		font-size: 18px;
+		margin-right: 20px;
+		resize: none;
+		height: 500px;
+		color: white;
+	}
+
+	&__btn {
+		align-self: flex-start;
+		font-size: 20px;
+	}
+}
+
+
+.status-info__checkbox {
+	display: none;
+}
+
+.status-info__label {
+	border-radius: 5px;
+	display: flex;
+	justify-content: center;
+	width: 120px;
+	padding: 5px 0;
+	font-size: 15px;
+	text-transform: uppercase;
+	user-select: none;   
+	&:hover{
+		background: rgb(0, 182, 121);
+		transition: 0.2s linear;
+	}
+}
+
+
+
+.done {
+	border-color: rgb(0, 182, 121);
+}
+
+.in-progress{
+	border-color: rgb(235, 231, 5);
+}
