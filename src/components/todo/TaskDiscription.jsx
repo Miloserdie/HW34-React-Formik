@@ -46,7 +46,7 @@ function TaskDiscription() {
 								<div className='task-discription__inputs'>
 									<div className={`task-discription__top ${status}`}>
 										<div className={`task-discription__task-info ${status}`}>
-											<p>Task:</p>
+											<span>Task:</span>
 											<Field name='task' className='task-discription__task' type="text"/>
 										</div>
 										<div className='task-discription__status-info'>
