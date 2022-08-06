@@ -25,8 +25,6 @@ function TaskDiscription() {
 	}, [id, dispatch])  //Тут таккож просив дописати 
 
 	function changeStatus() {
-		// e.preventDefault()
-
 		setStatus(status === 'done' ? 'in-progress' : 'done')
 	}
 
