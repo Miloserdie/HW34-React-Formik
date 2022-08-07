@@ -35,6 +35,7 @@
 		align-items: center;
 		border-bottom: 1px solid;
 		padding: 5px;
+		position: relative;
 	}
 
 	&__task {
@@ -64,6 +65,14 @@
 	&__btn {
 		align-self: flex-start;
 		font-size: 20px;
+	}
+
+	&__error-massage {
+		position: absolute;
+		display: inline-block;
+		top: 35px;
+		background: red;
+		color: white;
 	}
 }
 
